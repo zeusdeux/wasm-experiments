@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>wasm-experiments</title>
+    <script src="./dist/index.js" defer></script>
+    <style>
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Rust -> WASM -> JS bruh!</h1>
+      <p id="loader">Loading...</p>
+      <form id="app" class="hide">
+        <p>Enter two numbers</p>
+        <input name="num1" id="num1" type="text" value=""/>
+        <input name="num2" id="num2" type="text" value=""/>
+        <button id="sum-btn">Alert sum</button>
+      </form>
+    </section>
+  </body>
+</html>

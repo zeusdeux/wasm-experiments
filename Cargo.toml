@@ -1,0 +1,13 @@
+[package]
+name = "wasm-experiments"
+version = "0.1.0"
+authors = ["Mudit Ameta <zeusdeux@gmail.com>"]
+edition = "2018"
+description = "A sample rust -> wasm project using wasm-pack"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"

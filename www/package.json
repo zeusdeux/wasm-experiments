@@ -1,0 +1,21 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consume a wasm lib",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^10.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack build",
+    "start": "serve ."
+  },
+  "keywords": [],
+  "author": "Mudit Ameta <zeusdeux@gmail.com>",
+  "license": "ISC"
+}
